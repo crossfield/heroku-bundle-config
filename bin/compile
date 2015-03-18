@@ -51,7 +51,7 @@ cp -r "$build_dir/.bundle" "$cache_dir/.bundle"
 
 
 echo "Contents of .apt:"
-APT_DIR="$cache_dir/.apt"
+APT_DIR="$build_dir/.apt"
 tree $APT_DIR || ls -R $APT_DIR
 
 #sed: can't read /tmp/build_c982f0d9-9b66-42e6-a875-0a681a1e47fb/.bundle/*: No such file or directory
